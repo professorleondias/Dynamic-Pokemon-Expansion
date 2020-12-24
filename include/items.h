@@ -766,7 +766,7 @@
 #define ITEM_RIBBON_SWEET 0x2D1
 #define ITEM_STAR_SWEET 0x2D2
 #define ITEM_GALARICA_CUFF 0x2D3
-#define ITEM_GALARICA_CROWN 0x2D4 //Placeholder name for G-Slowking item
+#define ITEM_GALARICA_WREATH 0x2D4
 
 //New Key Items
 #define ITEM_GRACIDEA 0x217
@@ -846,7 +846,11 @@ enum
 #define ITEM_RUSTED_SWORD 0x2C6
 #define ITEM_RUSTED_SHIELD 0x2C7
 
-#define ITEMS_COUNT (ITEM_STAR_SWEET + 1)
+//Crown Tundra Items
+#define ITEM_REINS_OF_UNITY 0x2D5
+#define ITEM_ABILITY_PATCH 0x2D6
+
+#define ITEMS_COUNT (ITEM_ABILITY_PATCH + 1)
 
 //For Pokemon Unbound
 #ifdef UNBOUND
